@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  roles:
+    - role: andrewrothstein.pkg-upgrade
+    - role: andrewrothstein.redis
